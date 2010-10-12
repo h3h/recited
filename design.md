@@ -5,107 +5,114 @@
 
 # Past
 
-## Today
+## Overview of Cases
+
+ * Special: today, yesterday, n-(2..9) days
+ * Weeks
+ * Months
+ * Years
+
+## Special Cases
+
+### Today
 
 "7:35am"
 
-## Yesterday
+### Yesterday
 
 "yesterday at 7:35pm"
 
-## N-2..6 in current week
+### N-2..6 in current week
 
 "Monday at 1:31pm"
 
-## N-2..6 in previous week
+### N-2..6 in previous week
 
 "last Tuesday at 2:44pm"
 
-## N-7
+### N-7
 
 "a week ago at 1:22am"
 
-## N-7..9
+### N-7..9
 
 "#{n} days ago at 5:52pm"
 
-## N-10
+## Week-centric Cases
+
+For up to 6 and a half weeks.
+
+### N-10
 
 "a week and a half ago"
 
-## N-11..12
+### N-11..12
 
 "about a week and a half ago"
 
-## N-13
+### N-13
 
 "about two weeks ago"
 
-## N-14
+### N-14
 
 "two weeks ago"
 
-## N-15..16
+### N-15..16
 
 "about two weeks ago"
 
-## N-17
+### N-17
 
 "about two and a half weeks ago"
 
-## N-18
+### N-18
 
 "two and a half weeks ago"
 
-## N-19
+### N-19
 
 "about two and a half weeks ago"
 
-## N-20
+### N-20
 
 "about three weeks ago"
 
-## N-21
+### N-21
 
 "three weeks ago"
 
-## N-22..23
+### N-22..23
 
 "about three weeks ago"
 
-## N-24
+### N-24
 
 "about three and a half weeks ago"
 
-## N-25
+### N-25
 
 "three and a half weeks ago"
 
-## N-26
+### N-26
 
 "about three and a half weeks ago"
 
-## N-27..29
+## Month-centric Cases
 
-"about a month ago"
+ * Month boundaries: N months ago (by date) +- 2 days for "about n months ago"
+ *
 
-## N-28..29
+## Year-centric Cases
 
-"about a month ago"
+# Scratch
 
-## N-30
+"about" 1/2 ... "almost" ... time ... "about" ... "almost" 1/2 ... 1/2 ...
 
-"a month ago"
+# Limits
 
-## N-31..33
-
-"about a month ago"
-
-## N-34
-
-"about 5 weeks ago"
-
-# N-35
-
-"5 weeks ago"
-
+9 days
+6 weeks
+18 months
+999,999 years
+999 million years

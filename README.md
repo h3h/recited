@@ -25,11 +25,11 @@ Or just flat-out wrong:
 Recited will give you something that you can say out loud without embarrassing
 yourself:
 
-    >> Recited.time_in_words(3.weeks.ago - 3.days - 4.hours)
+    >> Recited.time_diff_in_words(3.weeks.ago - 3.days - 4.hours)
     => "about 3 and a half weeks ago"
 
-    >> Recited.time_in_words(1.year.ago - 6.months - 4.days)
+    >> Recited.time_diff_in_words(1.year.ago - 6.months - 4.days)
     => "about a year and a half ago"
 
-    >> Recited.time_in_words(1.year.ago - 2.months + 10.days)
+    >> Recited.time_diff_in_words(1.year.ago - 2.months + 10.days)
     => "almost 14 months ago"
