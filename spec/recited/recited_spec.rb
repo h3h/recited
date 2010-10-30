@@ -1,8 +1,7 @@
 require 'spec_helper'
+require 'active_support/core_ext/numeric/time'
 
 describe Recited, "time_diff_in_words" do
-
-  include ActiveSupport::NumberHelpers
 
   it "works for today" do
     t = 2.hours.ago
