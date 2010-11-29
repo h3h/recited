@@ -34,7 +34,7 @@
 
 "a week ago at 1:22am"
 
-### N-7..9
+### N-7..10
 
 "#{n} days ago at 5:52pm"
 
@@ -42,11 +42,11 @@
 
 For up to 6 and a half weeks.
 
-### N-10
+### N-11
 
 "a week and a half ago"
 
-### N-11..12
+### N-12
 
 "about a week and a half ago"
 
