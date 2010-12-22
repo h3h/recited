@@ -1,7 +1,9 @@
-# Pseudo-code
+# TODO
 
-    case delta % 7
-    when
+ * Covering all cases in the past
+ * Covering all cases in the future
+ * Code refactor for cleanliness
+ * Benchmarking & performance tuning
 
 # Past
 
@@ -101,9 +103,11 @@ For up to 6 and a half weeks.
 ## Month-centric Cases
 
  * Month boundaries: N months ago (by date) +- 2 days for "about n months ago"
- *
+ * Week-like "three and a half" and "about three and a half", but += 7 days
 
 ## Year-centric Cases
+
+ * Year boundaries: N years ago +- 15 days for "about n years ago"
 
 # Scratch
 
