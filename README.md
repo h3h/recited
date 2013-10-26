@@ -8,7 +8,7 @@ future as a human would. It fills essentially the same gap as Rails's
 [`time_ago_in_words`][1], but aims to be much better at its job and much
 easier to integrate into normal sentences.
 
- [1]: http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#M002256
+ [1]: http://api.rubyonrails.org/classes/ActionView/Helpers/DateHelper.html#method-i-time_ago_in_words
 
 # Examples
 
